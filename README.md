@@ -21,9 +21,10 @@ The model processes **historical air quality data**, applies **machine learning 
 ✔️ **Data Preprocessing** – Cleans and handles missing values  
 ✔️ **Exploratory Data Analysis (EDA)** – Visualizes air pollutant trends  
 ✔️ **Feature Engineering** – Selects key air quality indicators  
-✔️ **Machine Learning Model** – Uses **Linear Regression, Decision Trees, Random Forest, or Neural Networks** for AQI prediction  
+✔️ **Machine Learning Model** – Implements **Linear Regression, Decision Trees, Random Forest, and Neural Networks** for AQI prediction  
 ✔️ **Model Evaluation** – Measures accuracy using **RMSE, R² Score**  
 ✔️ **Visualization** – Graphs air pollution trends with **Matplotlib & Seaborn**  
+✔️ **Performance Comparison** – Analyzes different models for optimal results  
 
 ---
 
@@ -40,7 +41,7 @@ The model processes **historical air quality data**, applies **machine learning 
 ## 📂 **Project Structure**  
 ```
 📦 Air-Quality-Index-Prediction-AICTE
-│-- 📄 AQI Prediction Model.ipynb  # Jupyter Notebook with the model
+│-- 📄 AQI_Prediction_Model.ipynb  # Jupyter Notebook with the model
 │-- 📄 requirements.txt            # Required Python libraries
 │-- 📂 dataset/                     # Air quality dataset (CSV)
 │-- 📄 README.md                    # Project Documentation
@@ -64,14 +65,15 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 ```
-- Open **`AQI Prediction Model.ipynb`** and run the cells step by step.
+- Open **`AQI_Prediction_Model.ipynb`** and execute the cells step by step.
 
 ---
 
 ## 📈 **Results & Insights**  
-- The model predicts AQI values with good accuracy.  
-- Higher **PM2.5 & PM10** levels significantly affect AQI.  
-- Random Forest performed better than Linear Regression in AQI prediction.  
+- The model predicts AQI values with **high accuracy**.  
+- **PM2.5 & PM10** levels have the most significant impact on AQI.  
+- **Random Forest** outperforms Linear Regression in AQI prediction.  
+- Future improvements include integrating **Deep Learning techniques** for enhanced prediction accuracy.  
 
 ---
 
@@ -79,6 +81,7 @@ jupyter notebook
 🔹 Incorporate **Deep Learning (LSTMs/ANNs)** for time-series AQI prediction.  
 🔹 Use **real-time API data** for live AQI forecasting.  
 🔹 Deploy the model using **Flask/Django** for a web-based AQI predictor.  
+🔹 Optimize hyperparameters using **GridSearchCV** or **Bayesian Optimization**.  
 
 ---
 
@@ -93,3 +96,4 @@ This project is **open-source** and available under the **MIT License**.
 💬 Have questions? Reach out via **[GitHub Issues](https://github.com/ManasD22/Air-Quality-Index-Prediction-AICTE/issues)**.  
 
 ---
+
